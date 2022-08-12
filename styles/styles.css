@@ -1,0 +1,48 @@
+
+button {
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+button:hover {
+    background: #06c;
+}
+button:focus {
+    background: #06c;
+}
+
+li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+h1 {
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    color: #ffffff;
+    background: #2F303A;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
