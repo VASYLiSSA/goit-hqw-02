@@ -64,7 +64,7 @@ button:focus {
     color: #FFFFFF;
 }
 
-li {
+.page-navigation-li {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -73,6 +73,10 @@ li {
     letter-spacing: 0.02em;
     color: #212121;
     
+}
+
+.contacts-li {
+    font-weight: 500; font-size: 14px; line-height: 16px; letter-spacing: 0.02em; color: #757575;
 }
 
 h1 {
