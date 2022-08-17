@@ -52,6 +52,21 @@ button:focus {
     background: #2F303A;
 }
 
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.feature-text  {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575; }
+
 .hero-h1 {
     font-family: 'Roboto';
     font-style: normal;
