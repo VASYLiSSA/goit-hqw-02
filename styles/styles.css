@@ -134,3 +134,15 @@ h1 {
 .footer {
     background: #2F303A;
 }
+
+.logo-light { 
+    color: #ffffff;
+} 
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
