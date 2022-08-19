@@ -37,6 +37,16 @@ body {
     font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 14px; line-height: 16px; letter-spacing: 0.02em; color: #212121;
 }
 
+.contacts-li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
 .hero-button {
     font-family: 'Roboto';font-weight: 700;font-size: 16px;line-height: 30px;letter-spacing: 0.06em;color: #FFFFFF; cursor: pointer;
     background: #2196F3; 
@@ -86,12 +96,8 @@ button:focus {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color:#212121;
     
-}
-
-.contacts-li {
-    font-weight: 500; font-size: 14px; line-height: 16px; letter-spacing: 0.02em; color: #757575;
 }
 
 h1 {
@@ -135,14 +141,20 @@ h1 {
     background: #2F303A;
 }
 
+.footer-contacts-li {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+address {
+    font-style:normal
+}
+
 .logo-light { 
     color: #ffffff;
 } 
 
-.link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-}
