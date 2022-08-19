@@ -106,6 +106,14 @@ h1 {
     color: #aea4a4;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 .team-title {
     font-weight: 500;
     font-size: 16px;
@@ -121,4 +129,8 @@ h1 {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.footer {
+    background: #2F303A;
 }
