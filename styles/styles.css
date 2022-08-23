@@ -147,6 +147,21 @@ h1 {
     color: #aea4a4;
 }
 
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121; 
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
 .title {
     font-weight: 700;
     font-size: 36px;
