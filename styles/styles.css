@@ -52,6 +52,9 @@ body {
     color: #2195f312;
 }
 
+.header-contacts-li {
+    color: #757575;
+}
 
 .contacts-li {
     font-family: 'Roboto';
