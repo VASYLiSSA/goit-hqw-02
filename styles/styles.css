@@ -6,6 +6,22 @@
     list-style: none;
 }
 
+.list-kontact {
+    list-style: none;
+}
+
+.list-kontact a {
+    color: #757575;
+}
+
+.list-kontact a:hover {
+    color: #2196F3;
+}
+
+.list-kontact a:focus {
+    color: #2196F3;
+}
+
 img {
     display: block;
 }
@@ -52,9 +68,6 @@ body {
     color: #2195f312;
 }
 
-.header-contacts-li {
-    color: #757575;
-}
 
 .contacts-li {
     font-family: 'Roboto';
