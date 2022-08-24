@@ -109,13 +109,14 @@ body {
     border: 0px;
 }
 button:hover {
-    background: var(--accent-color);
+    background: #188CE8;
     color: white;
 }
 button:focus {
-    background: var(--accent-color);
+    background: #188CE8;
     color: white;
 }
+
 
 .button-port {
     font-family: 'Roboto';
@@ -183,7 +184,7 @@ h1 {
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: var(--text-color); 
+    color: var(--title-color);
 }
 
 .portfolio-text {
