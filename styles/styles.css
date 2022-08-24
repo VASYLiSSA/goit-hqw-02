@@ -1,3 +1,9 @@
+:root {
+    --accent-color: #2196F3;
+    --title-color: #212121; 
+    --text-color: #757575; 
+   } 
+
 .link {
     text-decoration: none;
 }
@@ -11,15 +17,15 @@
 }
 
 .list-kontact a {
-    color: #757575;
+    color: var(--text-color);
 }
 
 .list-kontact a:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .list-kontact a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .contacts-li {
@@ -36,7 +42,7 @@ img {
 }
 
 body {
-    font-family: 'Roboto', sans-seerif; font-size: 16px; letter-spacing:0.03em; color: #757575;
+    font-family: 'Roboto', sans-seerif; font-size: 16px; letter-spacing:0.03em; color: var(--text-color);
 }
 
 .logo {
@@ -47,11 +53,11 @@ body {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo-dark {
-    color: #000000;
+    color: var(--title-color);
     }
 
 .page-header {
@@ -65,16 +71,16 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--title-color);
 }
 .page-navigation a {
-    color: #212121;
+    color: var(--title-color);
 }
 .page-navigation a:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .page-navigation a:focus {
-    color: #2195f312;
+    color: var(--title-color);
 }
 
 
@@ -85,7 +91,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .hero-button {
@@ -96,18 +102,18 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
-    background: #2196F3; 
+    background: var(--accent-color); 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px;
     border: 0px;
 }
 button:hover {
-    background: #2196F3;
+    background: var(--accent-color);
     color: white;
 }
 button:focus {
-    background: #2196F3;
+    background: var(--accent-color);
     color: white;
 }
 
@@ -120,7 +126,7 @@ button:focus {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    color: #212121;
+    color: var(--title-color);
     background: #F5F4FA;
     border-radius: 4px;
     border: 0px;
@@ -139,14 +145,14 @@ button:focus {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--title-color);
 }
 
 .feature-text  {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575; }
+    color: var(--text-color)}
 
 .hero-h1 {
     font-family: 'Roboto';
@@ -177,14 +183,14 @@ h1 {
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: #212121; 
+    color: var(--text-color); 
 }
 
 .portfolio-text {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .title {
@@ -193,7 +199,7 @@ h1 {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
 }
 .team-title {
     font-weight: 500;
@@ -201,7 +207,7 @@ h1 {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
 }
 
 .team-text {
@@ -209,7 +215,7 @@ h1 {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .footer {
@@ -227,10 +233,10 @@ h1 {
     color: rgba(255,255,255,0.6);
 }
 .footer-contacts-li a:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .footer-contacts-li a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 address {
