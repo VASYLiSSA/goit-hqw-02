@@ -4,6 +4,13 @@
     --text-color: #757575; 
    } 
 
+
+.container {
+    width: 1300px;
+    max-width: 1300px;
+    box-sizing: border-box;
+}
+
 .link {
     text-decoration: none;
 }
@@ -248,3 +255,16 @@ address {
     color: #ffffff;
 } 
 
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio-container li {
+    width: 370px;
+}
+.portfolio-container li:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
