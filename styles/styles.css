@@ -6,9 +6,12 @@
 
 
 .container {
-    width: 1300px;
-    max-width: 1300px;
+    width: 1200px;
     box-sizing: border-box;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .link {
@@ -17,6 +20,8 @@
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .list-kontact {
@@ -192,6 +197,8 @@ h1 {
     line-height: 36px;
     letter-spacing: 0.06em;
     color: var(--title-color);
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -199,6 +206,7 @@ h1 {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--text-color);
+    margin: 0;
 }
 
 .title {
@@ -260,11 +268,22 @@ address {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: -30px;
+    margin-right: -30px;
+}
+
+.picture {
+    padding: 20px 24px;
+    border-left: 24px;
+    border-bottom: 20px;
+    border-right: 24px;
+
 }
 
 .portfolio-container li {
     width: 370px;
 }
-.portfolio-container li:not(:nth-child(3n)) {
+.portfolio-item {
     margin-right: 30px;
+    margin-bottom: 30px;
 }
